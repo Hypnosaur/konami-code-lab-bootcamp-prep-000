@@ -63,7 +63,7 @@ function onKeyDownHandler(e) {
     index = 0;
   }
 }
-```
+
 
 Have fun!
 
