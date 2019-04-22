@@ -23,14 +23,14 @@ function init() {
   function checkKeyPress(e){
     const key = e.key;
     
-    alert("Hi")
-    if (key === codes[index]){
+    if (key === code[index]){
       index++;
       
-      if(index === codes.length){
+      if(index === code.length){
         alert("Hurray!");
         index = 0;
       }
+      
     } else {
       index = 0;
     }
